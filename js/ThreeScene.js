@@ -501,8 +501,8 @@ function init() {
             rotation: {x: 0, y: 0, z: 0}
         },{
             type: "water",
-            pathObj: 'models/awater-bnimation/source/Water_Animation.obj',
-            pathMtl: 'models/awater-bnimation/source/material.mtl',
+            pathObj: 'models/bwater-animation/source/Water_Animation.obj',
+            pathMtl: 'models/bwater-animation/source/material.mtl',
             scale: {x: 0.027, y: 0.027, z: 0.027},
             position: {x: -36.2, y: 2.1, z: 31.3},
             rotation: {x: 0, y: 2.3, z: 0}
