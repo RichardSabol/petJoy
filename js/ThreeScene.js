@@ -617,7 +617,7 @@ function init() {
 async function render() {
     requestAnimationFrame( render );
 
-    if(loading > 14 && !dead){
+    if(loading > 13 && !dead){
         await Promise.allSettled([
             handleTime(),
             handleMovement(),
