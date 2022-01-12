@@ -976,7 +976,7 @@ function addObjects(){
                     }, onProgress, onError)
             });
 
-        /*let radio;
+        let radio;
         new GLTFLoader(manager).load("models/vintage_radio/scene.gltf", function (gltf){
             radio = gltf.scene;
             radio.position.set(-17, 8.5, 30)
@@ -1012,7 +1012,7 @@ function addObjects(){
             scene.add( box );
             loading++
             scene.add(radio)
-            })*/
+            })
 
 
         let bowl;
