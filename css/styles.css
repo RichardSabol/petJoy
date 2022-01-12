@@ -1,0 +1,326 @@
+h1{
+    font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+}
+
+p{
+    color: white;
+    font-size:20px;
+    line-height: 30px;
+}
+
+.button-55 {
+   align-self: center;
+   background-color: #fff;
+   background-image: none;
+   background-position: 0 90%;
+   background-repeat: repeat no-repeat;
+   background-size: 4px 3px;
+   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+   border-style: solid;
+   border-width: 3px;
+   box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+   box-sizing: border-box;
+   color: #41403e;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Neucha, sans-serif;
+   font-size: 1rem;
+   line-height: 23px;
+   outline: none;
+   padding: .75rem;
+   text-decoration: none;
+   transition: all 235ms ease-in-out;
+   border-bottom-left-radius: 15px 255px;
+   border-bottom-right-radius: 225px 15px;
+   border-top-left-radius: 255px 15px;
+   border-top-right-radius: 15px 225px;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 3px, 0);
+}
+
+.button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+body{
+    background-color: #000000;
+    overflow: hidden;
+}
+#blocker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*max-width: 99%;*/
+    /*max-height: 98.4%;*/
+    background-color: rgba(58, 54, 54, 0.73);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas{
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 2;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+.menuTitle{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.animalOption{
+    font-size: 25px;
+    color: #858585;
+    margin-bottom: 0.5%;
+    cursor: pointer;
+}
+
+.animalOption:hover{
+    color: #ffffff;
+}
+
+.alert {
+    border-radius: 10px;
+    display: block;
+    opacity: 0;
+    /*width: 30%;*/
+    position: absolute;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-top: 5%;
+    /*margin: 5% auto;*/
+    /*top: 5%;*/
+    /*left: 32%;*/
+    transition: opacity 0.5s ease 0s;
+}
+
+.instructions {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 14px;
+    /*cursor: pointer;*/
+}
+
+#instructions i{
+    color: white;
+    font-size: 50px;
+}
+
+.spacer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.line{
+    background-color: white;
+    width: 40%;
+    height: 5px;
+    border-radius: 5px;
+}
+
+#saves{
+    display: flex;
+    align-items: flex-start !important;
+    margin-left: 75%
+}
+
+.savesTable{
+    color: white;
+    /*background-color: rgba(0, 0, 0, 0.58);*/
+    border-collapse: collapse;
+    /*border: #3d3d3d 1px solid;*/
+    font-size: 20px;
+}
+
+.savesTable td:not(.deleteIcon), th{
+    padding: 8px;
+    border: #3d3d3d 1px solid;
+}
+
+.savesTable tr:not(.tableTitle):hover{
+    background-color: #5A5A5A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.deleteIcon{
+    padding: 2px 12px 2px 6px;
+    border-radius: 0 20px 20px 0;
+}
+
+.backButton{
+    font-size: 20px;
+    margin-bottom: 0.5%;
+    color: white;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+#gadsf21g{
+    z-index: 2;
+    max-width: 20%;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#menu{
+    display: flex;
+    color: white;
+}
+
+#status{
+    display: flex;
+    justify-content: space-around;
+    /*z-index: 1;*/
+    font-size: 30px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.stat{
+    margin-top: 0.5em;
+    justify-content: space-between;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    background: transparent;
+    align-items: center;
+}
+
+.red{
+    color: red !important;
+}
+
+.brown{
+    color: #a24f11 !important;
+}
+
+.brown1{
+    color: #5b3016 !important;
+}
+
+.yellow{
+    color: yellow !important;
+}
+
+.green{
+    color: green !important;
+}
+
+.blue{
+    color: blue !important;
+}
+
+#status span{
+    /*flex: 2;*/
+    color: white;
+    font-size: 1.5vw;
+    /*background-color: rgba(80, 80, 80, 0.47);*/
+    height: fit-content;
+}
+
+#status i{
+    /*flex: 1;*/
+    margin-right: 10px;
+    height: fit-content;
+    font-size: 1.5vw;
+}
+
+.crossDiv{
+    /*position: absolute;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*line-height: 100%;*/
+    /*text-align: center;*/
+    width: 100%;
+    /*height: 200px;*/
+    height: 100%;
+    /*position: relative;*/
+}
+
+#tooltip{
+    /*visibility: hidden;*/
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    /*position: fixed;*/
+    color: white;
+    font-size: 1.8vw;
+    font-family:sans-serif;
+    margin-bottom: 1rem;
+    /*background: #595959;*/
+    /*top: 1000px;*/
+    /*left: 1000px;*/
+}
+
+#crosshair{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 3em;
+}
+
+button{
+    margin-top: 0.5%;
+}
+
+.deadMessage{
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+#deadStats{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0.5em 0.5em 0.5em 15%;
+    gap: 0.5em;
+}
+
+#deadStats i {
+    margin-right: 0.5em;
+    width: 1em;
+}
+
+.deadmsg{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
