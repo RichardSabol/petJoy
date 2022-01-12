@@ -1,0 +1,11 @@
+# Aspose.3D Wavefront OBJ Exporter
+# Copyright 2004-2021 Aspose Pty Ltd.
+# File created: 10/31/2021 09:54:51
+
+newmtl material0
+	d 1
+	Tr 0
+	illum 2
+	Ks 0.2 0.2 0.2
+	Ns 20
+	map_Kd textures/material0_albedo.jpeg
