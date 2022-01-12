@@ -363,11 +363,11 @@ function init() {
 
     config = {
         speedMultiplier: 1,
-        growSpeed: 5,
-        poopSpeed: 10,
-        hungerSpeed: 3,
-        maxStateLength: 10,
-        maxTaskLength: 10
+        growSpeed: 60,
+        poopSpeed: 25,
+        hungerSpeed: 10,
+        maxStateLength: 20,
+        maxTaskLength: 20
     }
 
     animals= [{
