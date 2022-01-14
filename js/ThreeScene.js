@@ -112,6 +112,8 @@ function newGame() {
     animlength = 1
     duration = 2;
     dead = false
+    $('.deadMessage').hide()
+    $('#blocker').css('backgroundColor', `rgba(58, 54, 54, 0.73)`)
     mouse.x = 0
     mouse.y = 0
     addObjects();
@@ -137,6 +139,9 @@ function continueLoad() {
     scene.remove(animalObj)
     poops.forEach(p => scene.remove(p))
     poops = []
+    dead = false
+    $('.deadMessage').hide()
+    $('#blocker').css('backgroundColor', `rgba(58, 54, 54, 0.73)`)
     objects = objects.filter(function(ele){
         return ele !== animalObj;
     });
