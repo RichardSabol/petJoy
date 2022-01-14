@@ -276,7 +276,7 @@ function saveGame(index) {
         poopData: poopData,
         camera: {x: camera.position.x, y: camera.position.y, z: camera.position.z,
                 rx: camera.rotation.x, ry: camera.rotation.y, rz: camera.rotation.z},
-        savedAt: +new Date().getDay() + ". "+new Date().getDate()+ ". "+new Date().getFullYear()
+        savedAt: +new Date().getDate() + ". "+ (+new Date().getMonth()+1) + ". "+new Date().getFullYear()
     }
     let jsonContent = JSON.stringify(savedData);
     localStorage.setItem("save"+index, jsonContent)
